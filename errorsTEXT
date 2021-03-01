@@ -1,0 +1,2 @@
+the first error is in image number 1
+the second one is in the second image, if i replace int userID with int? userID in the function args just to bypass the first error, can't connect to the database.
