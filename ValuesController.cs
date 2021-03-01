@@ -23,7 +23,7 @@ namespace Attendance.Controllers
         }
 
         // POST api/values
-        public void Post([FromBody] int? userID)
+        public void Post([FromBody] int userID)
         {
             string datetime = DateTime.UtcNow.ToString("yyyy-MM-dd hh:mm:ss");
             //string dateTime = logDate.ToString("yyyy’-‘MM’-‘dd’ ’HH’:’mm’:’ss");
